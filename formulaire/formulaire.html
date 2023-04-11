@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container">
+    <center>  <h1>Inscrivez-vous! </h1> </center>
+
+ <form action="">
+    <label> Nom : </label> 
+    <input type="text" name="Nom" placeholder= "Nom" required /> 
+    <label> Prenom : </label> 
+    <input type="text" name="Prenom" placeholder="Prenom"  required /> 
+    <label> 
+        N° telephone :
+    </label>
+    <input type="text" name="phone"  required/>    
+    <label> Adresse : </label> 
+    <input type="text" name="Adresse"  required /> 
+    <label> Email : </label> 
+    <input type="email" name="Email" placeholder= "Email"  required /> 
+<br><br>
+    <label> Date Naissance : </label>  
+    <input type="date"style="height: 25px; width:100px;" name="Date Naissance" placeholder="Date Naissance" required />
+    <div><br>
+        <label> 
+        Sexe :
+        </label>
+        <input type="radio" value="Homme" name="Sexe" > Homme 
+        <input type="radio" value="Femme" name="Sexe"> Femme 
+    </div>
+<br>
+
+    <div>
+        <label> 
+        Pays :
+        </label> 
+
+        <select style="height: 25px; width:79px;">
+        <option value="Maroc">Maroc</option>
+        <option value="France">France</option>
+        <option value="KSA">KSA</option>
+        <option value="USA">USA</option>
+        <option value="Espagne">Espagne</option>
+        <option value="Belgium">Belgium</option>
+        <option value="Japan">Japan</option>
+        </select>
+    </div><br>
+
+    <label> Nouveau mot de passe : </label> 
+    <input type="password" name="password"   required /> 
+        
+    <label>Commentaire :</label>
+         <textarea name="commentaire" cols="30" rows="10"></textarea>
+    <div class="btn">
+    
+        <input type="button" value="S'inscrire" onclick="submit()"/>
+        <input type="button" value="Effacer" onclick="submit()"/>
+    </div>
+ </form> 
+</div>    
+</body>
+</html>
